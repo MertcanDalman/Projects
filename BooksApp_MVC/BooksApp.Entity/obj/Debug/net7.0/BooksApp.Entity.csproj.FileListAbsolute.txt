@@ -1,0 +1,12 @@
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\bin\Debug\net7.0\BooksApp.Entity.deps.json
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\bin\Debug\net7.0\BooksApp.Entity.dll
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\bin\Debug\net7.0\BooksApp.Entity.pdb
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\obj\Debug\net7.0\BooksApp.Entity.csproj.AssemblyReference.cache
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\obj\Debug\net7.0\BooksApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\obj\Debug\net7.0\BooksApp.Entity.AssemblyInfoInputs.cache
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\obj\Debug\net7.0\BooksApp.Entity.AssemblyInfo.cs
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\obj\Debug\net7.0\BooksApp.Entity.csproj.CoreCompileInputs.cache
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\obj\Debug\net7.0\BooksApp.Entity.dll
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\obj\Debug\net7.0\refint\BooksApp.Entity.dll
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\obj\Debug\net7.0\BooksApp.Entity.pdb
+C:\Git\BRIGHT-2023-1\BÖLÜM-10-MVC\Week-19\25-06-2023\BooksApp\BooksApp.Entity\obj\Debug\net7.0\ref\BooksApp.Entity.dll

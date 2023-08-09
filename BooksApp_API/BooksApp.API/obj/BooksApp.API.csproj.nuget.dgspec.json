@@ -1,0 +1,390 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.API\\BooksApp.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.API\\BooksApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.API\\BooksApp.API.csproj",
+        "projectName": "BooksApp.API",
+        "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.API\\BooksApp.API.csproj",
+        "packagesPath": "C:\\Users\\HECTOR\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HECTOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Business\\BooksApp.Business.csproj": {
+                "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Business\\BooksApp.Business.csproj"
+              },
+              "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Shared\\BooksApp.Shared.csproj": {
+                "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Shared\\BooksApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Business\\BooksApp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Business\\BooksApp.Business.csproj",
+        "projectName": "BooksApp.Business",
+        "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Business\\BooksApp.Business.csproj",
+        "packagesPath": "C:\\Users\\HECTOR\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HECTOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj": {
+                "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj"
+              },
+              "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Shared\\BooksApp.Shared.csproj": {
+                "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Shared\\BooksApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj",
+        "projectName": "BooksApp.Data",
+        "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj",
+        "packagesPath": "C:\\Users\\HECTOR\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HECTOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj": {
+                "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj"
+              },
+              "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Shared\\BooksApp.Shared.csproj": {
+                "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Shared\\BooksApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj",
+        "projectName": "BooksApp.Entity",
+        "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\HECTOR\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HECTOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Shared\\BooksApp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Shared\\BooksApp.Shared.csproj",
+        "projectName": "BooksApp.Shared",
+        "projectPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Shared\\BooksApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\HECTOR\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\BRIGHT-2023-1\\BÖLÜM-11-API\\Week-21\\16-07-2023\\BooksApp\\BooksApp.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HECTOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspnetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

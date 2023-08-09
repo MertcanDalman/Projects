@@ -1,0 +1,1718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,400;0,500;0,700;0,800;1,200;1,500;1,600;1,700;1,800&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Technology Station</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <header class="header">
+        <div class="header-content d-flex">
+            <div class="header-title d-flex align-items-center justify-content-center ">
+                <a href="#"><i class="fa-solid fa-toolbox fs-2 btn"></i></a>
+                <h2 style="cursor: pointer;" class="text-dark ms-2 me-5">Supply <span style="color:#6065f9">Point</span>
+                </h2>
+            </div>
+            <ul class="header-links">
+                <li>
+                    <a class="btn" href="#"><i class="fa-solid fa-house"></i>Home</a>
+                </li>
+                <li>
+                    <div class="dropdown-categories">
+                        <a class="categories btn" href="#">Categories</a>
+                        <ul>
+                            <li><a class="btn" href="#">Keyboard</a></li>
+                            <li><a class="btn" href="#">Mouse</a></li>
+                            <li><a class="btn" href="monitors.html ">Monitor</a></li>
+                            <li><a class="btn" href="#">Head Set</a></li>
+                            <li><a class="btn" href="#">Desktop</a></li>
+                            <li><a class="btn" href="#">Gaming Laptop</a></li>
+                            <li><a class="btn" href="#">Gaming Chair</a></li>
+                            <li><a class="btn" href="#">Mouse Pad</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="contact-us btn" href="#">Contact Us</a></li>
+                <li><a class="btn" href="about-us.html">About Us</a></li>
+            </ul>
+
+
+            <div class="header-content-login ml-0">
+                <ul class="header-links p-5">
+                    <div class="header-content-input me-1">
+                        <input type="text" class="form-control" placeholder="What do you need ?">
+                    </div>
+                    <li><a id="search-icon" class="btn m-0" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li><a class="login btn m-0" href="#"><i class="fa-solid fa-user"></i>Login</a></li>
+                    <li><a class="btn m-0" href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                </ul>
+            </div>
+
+
+            <div id="hamburger-menu">
+                <nav id="hamburger-menu-content" class="navigation" role="navigation">
+                    <input id="toggle1" type="checkbox" />
+                    <label class="hamburger1" for="toggle1">
+                        <div class="top"></div>
+                        <div class="meat"></div>
+                        <div class="bottom"></div>
+                    </label>
+
+                    <nav class="menu1">
+                        <a class="link1 btn" href="#"><i class="fa-solid fa-house"></i>Home</a>
+                        <a class="link1 categories btn" href="#">Categories</a>
+                        <a class="link1 contact-us btn" href="#">Contact Us</a>
+                        <a class="link1 btn" href="about-us.html" target="_blank">About Us</a>
+                        <div class="header-content-input me-1">
+                            <input type="text" class="form-control" placeholder="What do you need ?">
+                        </div>
+                        <li><a id="search-icon" class="btn m-0" href="#"><i
+                                    class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                        <a class="link1 login btn m-0" href="#"><i class="login fa-solid fa-user"></i>Login</a>
+                        <a class="link1 btn m-0" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div class="modal-contact-us">
+        <form action="">
+            <i class="close fa-solid fa-circle-xmark close" style="color:#fff"></i>
+            <h2>Contact Us</h2>
+            <label for="name">Full Name</label>
+            <input type="text" name="" id="name" required>
+
+            <label for="email">E-Mail</label>
+            <input type="email" id="email">
+
+            <label for="phone">Phone</label>
+            <input type="number" name="" id="phone">
+
+            <label for="message">Message</label>
+            <textarea name="message" id="" cols="30" rows="5"></textarea>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <div id="login-modal-container">
+        <div class="modal-login">
+            <i class="close fa-solid fa-circle-xmark close" style="color:#6065f9"></i>
+            <h2 id="loginTitle">Log In</h1>
+                <form id="modal-form" action="">
+                    <div class="input-group">
+                        <div id="nameField" class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" placeholder="E-mail">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <p>Forgot Password ? <a href="#">Click Here!</a></p>
+                    </div>
+                    <div class="modal-login-form-btn">
+                        <button id="signUpBtn" type="button">Sign Up</button>
+                        <button id="signInBtn" type="button" class="disable">Sign In</button>
+                    </div>
+
+                </form>
+        </div>
+    </div>
+
+
+    <!--SLIDER-->
+
+    <div class="slider">
+        <div class="slide active">
+            <img src="images/Slider/Sale/pexels-karolina-grabowska-5632386.jpg">
+            <div class="slide-inner">
+                <h1>On Sale 30% up to 70%.</h1>
+                <p>Do Not Miss It!</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images//Slider/esports-championship-stage-3d-illustration.jpg">
+            <div class="slide-inner">
+                <h1>HCCTX Tournament is Going to Start Soon</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, provident.</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/Slider/Sale/pexels-karolina-grabowska-5650043.jpg">
+            <div class="slide-inner">
+                <h1>Black Friday Coming Soon</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, provident.</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/Slider/view-neon-illuminated-gaming-desk-setup-with-keyboard.jpg">
+            <div class="slide-inner">
+                <h1>New Arrivals Below!</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, provident.</p>
+            </div>
+        </div>
+
+        <div class="indicators">
+            <button id="prev">&Lt;</button>
+            <button id="next">&Gt;</button>
+        </div>
+        <!-- <div class="indicators-2">
+            <span>DEMO</span>
+            <span>DEMO</span>
+            <span>DEMO</span>
+            <span>DEMO</span>
+        </div> -->
+    </div>
+    <hr class="m-5">
+
+    <!-- CATEGORIES -->
+
+
+    <div id="categories" class="my-5">
+        <div class="categories-title-container">
+            <h2 class="categories-title">CATEGORIES</h2>
+        </div>
+        <div class="categories-items row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="images/Slider/Sale/pexels-kasra-askari-12877873.jpg" class="card-img-top"
+                        alt="Category 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitor</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</i></p>
+                        <a href="monitors.html" target="_blank" class="shop-now-btn btn text-decoration-underline">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/Slider/Sale/pexels-kasra-askari-12877873.jpg" class="card-img-top"
+                        alt="Category 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Keyboard</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</i></p>
+                        <a href="categories.html" target="_blank" class="shop-now-btn btn text-decoration-underline">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/Slider/Sale/pexels-kasra-askari-12877873.jpg" class="card-img-top"
+                        alt="Category 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Mouse</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</i></p>
+                        <a href="categories.html" target="_blank" class="shop-now-btn btn text-decoration-underline">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/Slider/Sale/pexels-kasra-askari-12877873.jpg" class="card-img-top"
+                        alt="Category 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Head Set</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</i></p>
+                        <a href="categories.html" target="_blank" class="shop-now-btn btn text-decoration-underline">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="categories-inspect">
+                <a href="categories.html" target="_blank" class="categories-inspect-btn btn text-decoration-underline">See More</a>
+            </div>
+        </div>
+    </div>
+
+    <hr class="m-5">
+
+    <!--NEW ARRIVALS-->
+    <div>
+        <div id="new-arrivals" class="my-5 ">
+            <div class="new-arrivals-title-container">
+                <h2 class="new-arrivals-title">NEW ARRIVALS</h2>
+            </div>
+            <div class="new-arrivals-items row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images//NewArrivals/LGMonitor.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">LG Monitor</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>LG 24GN53A-B UltraGear 23.6" 1Ms 144Hz FreeSync TN FHD (HDMIx2-DPx1) Gaming
+                                        Monitör
+                                    </p>
+                                    <div
+                                        class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                        <span style="text-decoration: line-through;">799,99$</span>
+                                        <span>499,99$</span>
+                                    </div>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/SteelSeriesApexPro.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">SteelSeries Apex Pro</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>SteelSeries Apex Pro Mekanik Gaming Klavye - Ayarlanabilir Omni Switch -Oled
+                                        Ekran -
+                                        İnglizce Q</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images//NewArrivals/HyperXCloudIIWireless.png"
+                            class="card-img-top" alt="Category 3">
+                        <div class="card-body">
+                            <h5 class="card-title">HyperX Cloud II Wireless </h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>HyperX Cloud II Wireless Surround Gaming Kulaklık HHSC2X-BA-RD/G</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images//NewArrivals/Arctic 7 Rival 3.png" class="card-img-top"
+                            alt="Category 4">
+                        <div class="card-body">
+                            <h5 class="card-title">SteelSeries Arctic 7 + Rival 3</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>SteelSeries Arctis 7+ Wireless Gaming Kulaklık + Rival 3 Wireless Ve
+                                        Bluetooth Mouse</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SALE MODAL-->
+        <div class="sale-modal-container">
+            <div class="sale-modal-content d-flex align-self-start flex-column justify-content-start">
+                <div class="sale-modal-title">
+                    <h2>Details</h2>
+                    <img id="new-arrivals-img" src="images//NewArrivals/HyperXCloudIIWireless.png" class="card-img-top"
+                        alt="Category 3">
+                </div>
+                <div class="modal-details d-flex align-items-center justify-content-center">
+                    <div>
+                        <p>lorem:</p>
+                        <p>lorem:</p>
+                        <p>lorem:</p>
+                        <p>lorem:</p>
+                        <p>lorem:</p>
+                    </div>
+                    <div>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+                <div class="sale-modal-btn">
+                    <button id="details-btn" class="">Add Chart</button>
+                    <button id="details-btn" class="close">Close</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!--HIDED PRODUCTS-->
+        <div id="new-arrivals-hided" class="new-arrivals-items ">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/SteelSeriesMouse.png" class="card-img-top"
+                            alt="Category 1">
+                        <div class="card-body">
+                            <h5 class="card-title">SteelSeries Aerox 5</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>SteelSeries Aerox 5 Gaming Mouse Qck Large Mousepad Bundle SSM62401SSMP63003</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/BenQZowieMonitor.png" class="card-img-top"
+                            alt="Category 2">
+                        <div class="card-body">
+                            <h5 class="card-title">BenQ Zowie Monitor</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>BENQ Zowıe Xl2546k 24.5" 0,5ms 240hz Fhd 3xhdmı Dp Tn Freesync Monitor
+                                        153.02.24.XL2546K
+                                    </p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/Untitled.png" class="card-img-top"
+                            alt="Category 3">
+                        <div class="card-body">
+                            <h5 class="card-title">HP Omen Gaming Desktop</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>HP Omen 45l Gaming Desktop Gt22-0038nt 6m459ea I9-12900k 8gb Rtx 3070 32gb Ram
+                                        2x1tb
+                                        M2
+                                        Ssd Freedos 6M459EA</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/AsusROGKeyboard.PNG" class="card-img-top"
+                            alt="Category 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Asus ROG Strix Flare II</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>Asus ROG Strix Flare II ROG NX Red Switch RGB Mekanik Kablolu Gaming (Oyuncu)
+                                        Klavye
+                                    </p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/SteelSeriesMouse.png" class="card-img-top"
+                            alt="Category 1">
+                        <div class="card-body">
+                            <h5 class="card-title">SteelSeries Aerox 5</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>SteelSeries Aerox 5 Gaming Mouse Qck Large Mousepad Bundle SSM62401SSMP63003</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/BenQZowieMonitor.png" class="card-img-top"
+                            alt="Category 2">
+                        <div class="card-body">
+                            <h5 class="card-title">BenQ Zowie Monitor</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>BENQ Zowıe Xl2546k 24.5" 0,5ms 240hz Fhd 3xhdmı Dp Tn Freesync Monitor
+                                        153.02.24.XL2546K
+                                    </p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/Untitled.png" class="card-img-top"
+                            alt="Category 3">
+                        <div class="card-body">
+                            <h5 class="card-title">HP Omen Gaming Desktop</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>HP Omen 45l Gaming Desktop Gt22-0038nt 6m459ea I9-12900k 8gb Rtx 3070 32gb Ram
+                                        2x1tb
+                                        M2
+                                        Ssd Freedos 6M459EA</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/AsusROGKeyboard.PNG" class="card-img-top"
+                            alt="Category 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Asus ROG Strix Flare II</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>Asus ROG Strix Flare II ROG NX Red Switch RGB Mekanik Kablolu Gaming (Oyuncu)
+                                        Klavye
+                                    </p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/SteelSeriesMouse.png" class="card-img-top"
+                            alt="Category 1">
+                        <div class="card-body">
+                            <h5 class="card-title">SteelSeries Aerox 5</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>SteelSeries Aerox 5 Gaming Mouse Qck Large Mousepad Bundle SSM62401SSMP63003</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/BenQZowieMonitor.png" class="card-img-top"
+                            alt="Category 2">
+                        <div class="card-body">
+                            <h5 class="card-title">BenQ Zowie Monitor</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>BENQ Zowıe Xl2546k 24.5" 0,5ms 240hz Fhd 3xhdmı Dp Tn Freesync Monitor
+                                        153.02.24.XL2546K
+                                    </p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/Untitled.png" class="card-img-top"
+                            alt="Category 3">
+                        <div class="card-body">
+                            <h5 class="card-title">HP Omen Gaming Desktop</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>HP Omen 45l Gaming Desktop Gt22-0038nt 6m459ea I9-12900k 8gb Rtx 3070 32gb Ram
+                                        2x1tb
+                                        M2
+                                        Ssd Freedos 6M459EA</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/AsusROGKeyboard.PNG" class="card-img-top"
+                            alt="Category 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Asus ROG Strix Flare II</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>Asus ROG Strix Flare II ROG NX Red Switch RGB Mekanik Kablolu Gaming (Oyuncu)
+                                        Klavye
+                                    </p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/SteelSeriesMouse.png" class="card-img-top"
+                            alt="Category 1">
+                        <div class="card-body">
+                            <h5 class="card-title">SteelSeries Aerox 5</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>SteelSeries Aerox 5 Gaming Mouse Qck Large Mousepad Bundle SSM62401SSMP63003</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/BenQZowieMonitor.png" class="card-img-top"
+                            alt="Category 2">
+                        <div class="card-body">
+                            <h5 class="card-title">BenQ Zowie Monitor</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>BENQ Zowıe Xl2546k 24.5" 0,5ms 240hz Fhd 3xhdmı Dp Tn Freesync Monitor
+                                        153.02.24.XL2546K
+                                    </p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/Untitled.png" class="card-img-top"
+                            alt="Category 3">
+                        <div class="card-body">
+                            <h5 class="card-title">HP Omen Gaming Desktop</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>HP Omen 45l Gaming Desktop Gt22-0038nt 6m459ea I9-12900k 8gb Rtx 3070 32gb Ram
+                                        2x1tb
+                                        M2
+                                        Ssd Freedos 6M459EA</p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img id="new-arrivals-img" src="images/NewArrivals/AsusROGKeyboard.PNG" class="card-img-top"
+                            alt="Category 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Asus ROG Strix Flare II</h5>
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>
+                                    <p>Asus ROG Strix Flare II ROG NX Red Switch RGB Mekanik Kablolu Gaming (Oyuncu)
+                                        Klavye
+                                    </p>
+                                </div>
+                                <div class="price d-flex align-items-center gap-3 justify-content-center mb-3 fw-bold">
+                                    <span style="text-decoration: line-through;">799,99$</span>
+                                    <span>499,99$</span>
+                                </div>
+                                <div class="rate-stars d-flex justify-content-center">
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                    <p class="card-text"><i class="fa-solid fa-star"></i></p>
+                                </div>
+                            </div>
+                            <button id="details-btn" class="">Add Chart</button>
+                            <button id="details-btn" class="sale-product-details">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sale-view" class="d-flex align-items-center justify-content-center position-relative mt-4 ">
+        <button id="viewMoreBtn" class="btn text-center btn-lg text-decoration-underline">View More</button>
+        <button id="viewLessBtn" class="disable-view btn text-center btn-lg text-decoration-underline">View
+            Less</button>
+    </div>
+    </div>
+
+    <hr class="m-5">
+
+    <!-- ON SALE PRODUCTS-->
+
+    <div>
+        <div class="on-sale-products-title">
+            <h2>ON SALE PRODUCTS</h2>
+        </div>
+        <section class="on-sale-slider">
+            <div class="row row-cols-sm-1 row-cols-md-5 row-col-lg-5 sale-products-container ">
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sale-products-content">
+                    <div class="sale-product-card">
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-img">
+                                <img src="images/NewArrivals/HyperXCloudIIWireless.png">
+                            </div>
+                        </div>
+                        <div class="sale-product-card-content">
+                            <div class="sale-product-name">
+                                <h5>HyperX Cloud II Wireless</h5>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="sale-product-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price d-flex align-items-center gap-3 justify-content-center mt-3 fw-bold">
+                                <span style="text-decoration: line-through;">799,99$</span>
+                                <span>499,99$</span>
+                            </div>
+                            <div class="sale-product-button">
+                                <button class="">Add Chart</button>
+                                <button>Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <hr class="m-5">
+
+    <!--ABOUT US-->
+
+    <div class="about-us align-items-center justify-content-center ">
+        <div class="about-us-img">
+            <div class="about-us-background d-flex flex-column justify-content-center h-100">
+                <div class="about-us-content">
+                    <div class="m-auto">
+                        <h1>We Have What You Need!</h1>
+                        
+                    </div>
+                    <div class="mb-5">
+                        <button class="about-us-btn">About Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--PRODUCT MATERIALS INFO-->
+
+        <div class="materials-title text-center">
+            <h2>Product Materials</h2>
+        </div>
+        <div class="materials-info d-flex justify-content-between align-items-center text-center">
+            <div class="materials-info-item">
+                <img class="materials-info-img" src="images/Materials/html-css-collage-concept-with-person.jpg" alt="">
+                <h5 class="my-4">Lorem ipsum dolor sit amet.</h5>
+                <a class="read-more-btn btn">Read More</a>
+            </div>
+            <div class="materials-info-item">
+                <img class="materials-info-img" src="images/Materials/rpa-concept-with-blurry-hand-touching-screen (1).jpg" alt="">
+                <h5 class="my-4">Lorem ipsum dolor sit amet.</h5>
+                <a class="read-more-btn btn">Read More</a>
+            </div>
+        </div>
+  
+    
+
+    <hr class="m-5">
+
+    <!--OPTIONS-->
+
+    <div id="options-info" class="container-fluid">
+        <div class="options-info-items row text-center">
+            <div class="options-info-item col-lg-3 col-md-6 col-sm-6 text-center">
+                <div class=" text-center h-100 align-items-center">
+                    <div class="cat-icon text-center">
+                        <i class="fa-solid fa-truck fs-1"></i>
+                    </div>
+                    <div>
+                        <h5>Fast & Free Delivery</h5>
+                        <p>Free delivery on all orders</p>
+                    </div>
+                </div>
+            </div>
+            <div class="options-info-item col-lg-3 col-md-6 col-sm-6">
+                <div>
+                    <div class="cat-icon">
+                        <i class="fa-solid fa-credit-card fs-1"></i>
+                        <i class="fa-solid fa-circle-ampersand"></i>
+                        <i class="fa-solid fa-money-bill-wave fs-1"></i>
+                    </div>
+                    <div>
+                        <h5>Online & Cash Payment Option</h5>
+                        <p>Free delivery on all orders</p>
+                    </div>
+                </div>
+            </div>
+            <div class="options-info-item col-lg-3 col-md-6 col-sm-6">
+                <div>
+                    <div class="cat-icon">
+                        <i class="fa-solid fa-clock-rotate-left fs-1"></i>
+                    </div>
+                    <div>
+                        <h5>24/7 Service & Accessibility</h5>
+                        <p>Free delivery on all orders</p>
+                    </div>
+                </div>
+            </div>
+            <div class="options-info-item col-lg-3 col-md-6 col-sm-6">
+                <div>
+                    <div class="cat-icon">
+                        <i class="fa-solid fa-money-bills fs-1"></i>
+                    </div>
+                    <div>
+                        <h5>Fast & Free Delivery</h5>
+                        <p>Free delivery on all orders</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="m-5">
+
+    <!--FOOTER-->
+
+    <footer>
+        <div class="footer-area">
+            <div id="footer-area-container" class="container-fluid gap-5">
+                <div class="row d-flex justify-content-between w-50 h-50">
+                    <div class="col-xl-3 col-lg-3 col-md-8 col-sm-8">
+                        <div class="footer-title">
+                            <h2>Supply Point</h2>
+                            <br>
+                            <p class="fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                                cupiditate.</p>
+                        </div>
+                        <br>
+                        <br>
+
+
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-8 col-sm-8">
+                        <div class="footer-content d-flex flex-column align-items-start justify-content-start">
+                            <h5 class="">Quick Links</h5>
+                            <br>
+
+                            <a class="footer-content-links" href="#">About Us</a>
+                            <a class="contact-us footer-content-links" href="#">Contact Us</a>
+                            <a class="footer-content-links" href="#">Privacy Policy</a>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="footer-socials d-flex justify-content-between align-items-center fs-1">
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-8 col-sm-8">
+                        <div class="footer-content d-flex flex-column align-items-start justify-content-start">
+                            <h5>Partners</h5>
+                            <br>
+                            <a class="footer-content-links" href="#">Lorem ipsum</a>
+                            <a class="footer-content-links" href="#">Lorem ipsum</a>
+                            <a class="footer-content-links" href="#">Lorem ipsum</a>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-8 col-sm-8">
+                        <div class="footer-content d-flex flex-column align-items-start justify-content-start">
+                            <form id="newsletter">
+                                <div>
+                                    <h5>Newsletter</h5>
+                                    <p>Subscribe to our newsletter and get 20% off your first purchase</p>
+                                </div>
+                                <div class="mb-3 w-100 d-flex align-items-center justify-content-between gap-1">
+                                    <input type="email" class="form-control" id="newsletter-input"
+                                        aria-describedby="emailHelp" placeholder="E-mail here">
+                                    <button id="newsletter-button" class="btn" type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                        <br>
+                    </div>
+
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="d-flex flex-column justify-content-between align-items-center">
+                <div class="footer-socials d-flex justify-content-between align-items-center fs-3 w-50">
+
+                    <div class="footer-socials-facebook">
+                        <a class="socials" href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="footer-socials-facebook">
+                        <a class="socials" href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="footer-socials-facebook">
+                        <a class="socials" href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="footer-socials-facebook">
+                        <a class="socials" href=""><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                    <div class="footer-socials-facebook">
+                        <a class="socials" href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="footer-socials-facebook">
+                        <a class="socials" href=""><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+
+                </div>
+                <div class="copy-right align-items-center text-center mt-5">
+                    <p>&copy;2023 All Rights reserved | This template made by <span
+                            style="color:#6065f9; font-weight: bold;">Elves</span> who lives in Middle Earth</p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+    <script>
+
+        let signUpBtn = document.getElementById("signUpBtn");
+        let signInBtn = document.getElementById("signInBtn");
+        let nameField = document.getElementById("nameField");
+        let loginTitle = document.getElementById("loginTitle");
+
+
+        const slides = document.querySelectorAll(".slide");
+        const btnPrev = document.querySelector("#prev");
+        const btnNext = document.querySelector("#next");
+        const headerSpan = document.querySelector(".header h1 span");
+
+
+        let autoSlider = true;
+        let sliderInterval;
+        let timerInterval;
+        let counter;
+        let intervalTime = 3000;
+
+        btnPrev.addEventListener("click", function () {
+            prevSlide();
+            againInterval();
+        });
+
+        btnNext.addEventListener("click", function () {
+            nextSlide();
+            againInterval();
+        });
+
+        function prevSlide() {
+            let activeSlide = document.querySelector(".active");
+            activeSlide.classList.remove("active");
+            if (activeSlide.previousElementSibling) {
+                activeSlide.previousElementSibling.classList.add("active");
+            } else {
+                slides[slides.length - 1].classList.add("active");
+            }
+        }
+
+        function nextSlide() {
+            let activeSlide = document.querySelector(".active");
+            activeSlide.classList.remove("active");
+            if (activeSlide.nextElementSibling && activeSlide.nextElementSibling.classList.contains("slide")) {
+                activeSlide.nextElementSibling.classList.add("active");
+            } else {
+                slides[0].classList.add("active");
+            }
+        }
+
+        function againInterval() {
+            if (autoSlider) {
+                clearInterval(sliderInterval);
+                clearInterval(timerInterval);
+                counter = 1;
+
+                sliderInterval = setInterval(nextSlide, intervalTime);
+                timerInterval = setInterval(timerDisplay, 1000);
+            }
+        };
+
+        if (autoSlider) {
+            againInterval();
+        }
+
+        function timerDisplay() {
+            counter++;
+
+            if (counter > 5) againInterval();
+        }
+
+
+
+        // let viewLessBtn = document.getElementById("viewLessBtn");
+        // let viewMoreBtn = document.getElementById("viewMoreBtn");
+        // let newsArrivals2 = document.getElementById("news-arrivals-2");
+
+        // viewMoreBtn.onclick = function () {
+        //     newsArrivals2.classList.show();
+        //     viewMoreBtn.classList.hide("disable-view");
+        //     viewLessBtn.classList.show("disable-view");
+        // }
+        // viewLessBtn.onclick = function () {
+        //     newsArrivals2.hide();
+        //     viewMoreBtn.classList.show("disable-view");
+        //     viewLessBtn.classList.hide("disable-view");
+        // }
+
+
+
+        signInBtn.onclick = function () {
+            nameField.style.maxHeight = "0";
+            loginTitle.innerHTML = "Sign In";
+            signUpBtn.classList.add("disable");
+            signInBtn.classList.remove("disable");
+        }
+        signUpBtn.onclick = function () {
+            nameField.style.maxHeight = "60px";
+            loginTitle.innerHTML = "Sign Up";
+            signUpBtn.classList.remove("disable");
+            signInBtn.classList.add("disable");
+        }
+
+        $(document).ready(function () {
+            $('.contact-us').click(function () {
+                $('.modal-contact-us').show();
+            });
+            $('.close').click(function () {
+                $('.modal-contact-us').hide();
+            });
+        });
+        $(document).ready(function () {
+            $('.login').click(function () {
+                $('.modal-login').show();
+                $('#login-modal-container').show();
+            });
+            $('.close').click(function () {
+                $('.modal-login').hide();
+                $('#login-modal-container').hide();
+            });
+        });
+        $(document).ready(function () {
+            $('.sale-product-details').click(function () {
+                $('.sale-modal-container').show();
+            });
+            $('.close').click(function () {
+                $('.sale-modal-container').hide();
+            });
+        });
+        $(document).ready(function () {
+            $('.sale-product-details').click(function () {
+                $('.sale-modal-container').show();
+            });
+            $('.close').click(function () {
+                $('.sale-modal-container').hide();
+            });
+        });
+
+        $(document).ready(function () {
+            $('#viewMoreBtn').click(function () {
+                $('#new-arrivals-hided').show();
+                $('#viewMoreBtn').hide();
+                $('#viewLessBtn').show();
+            });
+            $('#viewLessBtn').click(function () {
+                $('#new-arrivals-hided').hide();
+                $('#viewLessBtn').hide();
+                $('#viewMoreBtn').show();
+            });
+        });
+        $(document).ready(function () {
+            $('#search-icon').click(function () {
+                $('.header-content-input').show();
+            });
+        });
+        $(document).ready(function () {
+            $('#categories').click(function () {
+                $('.header-content-input').hide();
+            });
+        });
+
+
+
+    </script>
+</body>
+
+</html>

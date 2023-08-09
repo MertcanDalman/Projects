@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,400;0,500;0,700;0,800;1,200;1,500;1,600;1,700;1,800&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <title>About Us</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content d-flex">
+            <div class="header-title d-flex align-items-center justify-content-center ">
+                <i class="fa-solid fa-toolbox fs-2 btn"></i>
+                <h2 style="cursor: pointer;" class="text-dark ms-2 me-5">Supply <span style="color:#6065f9">Point</span>
+                </h2>
+            </div>
+            <ul class="header-links">
+                <li>
+                    <a class="btn" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+                </li>
+                <li>
+                    <div class="dropdown-categories">
+                        <a class="categories btn" href="#">Categories</a>
+                        <ul>
+                            <li><a class="btn" href="#">Keyboard</a></li>
+                            <li><a class="btn" href="#">Mouse</a></li>
+                            <li><a class="btn" href="monitors.html">Monitor</a></li>
+                            <li><a class="btn" href="#">Head Set</a></li>
+                            <li><a class="btn" href="#">Desktop</a></li>
+                            <li><a class="btn" href="#">Gaming Laptop</a></li>
+                            <li><a class="btn" href="#">Gaming Chair</a></li>
+                            <li><a class="btn" href="#">Mouse Pad</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="contact-us btn" href="#">Contact Us</a></li>
+                <li><a class="btn" href="#">About Us</a></li>
+            </ul>
+
+
+            <div class="header-content-login ml-0">
+                <ul class="header-links p-5">
+                    <div class="header-content-input me-1">
+                        <input type="text" class="form-control" placeholder="What do you need ?">
+                    </div>
+                    <li><a id="search-icon" class="btn m-0" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li><a class="login btn m-0" href="#"><i class="fa-solid fa-user"></i>Login</a></li>
+                    <li><a class="btn m-0" href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                </ul>
+            </div>
+
+
+            <div id="hamburger-menu">
+                <nav id="hamburger-menu-content" class="navigation" role="navigation">
+                    <input id="toggle1" type="checkbox" />
+                    <label class="hamburger1" for="toggle1">
+                        <div class="top"></div>
+                        <div class="meat"></div>
+                        <div class="bottom"></div>
+                    </label>
+
+                    <nav class="menu1">
+                        <a class="link1 btn" href="#"><i class="fa-solid fa-house"></i>Home</a>
+                        <a class="link1 categories btn" href="#">Categories</a>
+                        <a class="link1 contact-us btn" href="#">Contact Us</a>
+                        <a class="link1 btn" href="#">About Us</a>
+                        <div class="header-content-input me-1">
+                            <input type="text" class="form-control" placeholder="What do you need ?">
+                        </div>
+                        <li><a id="search-icon" class="btn m-0" href="#"><i
+                                    class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                        <a class="link1 login btn m-0" href="#"><i class="login fa-solid fa-user"></i>Login</a>
+                        <a class="link1 btn m-0" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="modal-contact-us">
+        <form action="">
+            <i class="close fa-solid fa-circle-xmark close" style="color:#fff"></i>
+            <h2>Contact Us</h2>
+            <label for="name">Full Name</label>
+            <input type="text" name="" id="name" required>
+
+            <label for="email">E-Mail</label>
+            <input type="email" id="email">
+
+            <label for="phone">Phone</label>
+            <input type="number" name="" id="phone">
+
+            <label for="message">Message</label>
+            <textarea name="message" id="" cols="30" rows="5"></textarea>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <div id="login-modal-container">
+        <div class="modal-login">
+            <i class="close fa-solid fa-circle-xmark close" style="color:#6065f9"></i>
+            <h2 id="loginTitle">Log In</h1>
+                <form id="modal-form" action="">
+                    <div class="input-group">
+                        <div id="nameField" class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" placeholder="E-mail">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <p>Forgot Password <a href="#">Click Here!</a></p>
+                    </div>
+                    <div class="modal-login-form-btn">
+                        <button id="signUpBtn" type="button">Sign Up</button>
+                        <button id="signInBtn" type="button" class="disable">Sign In</button>
+                    </div>
+
+                </form>
+        </div>
+    </div>
+    <div class="mt-5">
+        <hr class="mt-5">
+    </div>
+
+    <div class="about-us-page">
+        <img src="/images/ai-nuclear-energy-background-future-innovation-disruptive-technology.jpg" alt="">
+    </div>
+    <div>
+        <div class="d-flex align-items-center justify-content-center flex-column mb-4 ms-5 me-5">
+            <h1 class="mt-3">About Us</h1>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quis in atque expedita qui eaque omnis obcaecati ut dolores repudiandae aut officia doloribus? Ea iste laboriosam architecto libero aspernatur tempore, sit labore modi inventore obcaecati. Iusto, tenetur, voluptas doloremque perspiciatis at, aperiam nihil quaerat quidem quibusdam ducimus rerum quas. Voluptatem quas exercitationem sequi distinctio porro sint dolorem, nemo atque architecto tenetur rem magnam impedit, qui quae ipsam possimus minima earum omnis eligendi! Vero laborum sit totam amet molestias excepturi, recusandae, officia dignissimos ex praesentium dolorum libero soluta id reiciendis enim modi quisquam ratione aspernatur nostrum alias delectus consequatur? Eveniet vel ab aut temporibus blanditiis eius architecto doloribus excepturi mollitia laudantium, facilis est ut reprehenderit! Numquam perspiciatis quas harum, natus provident in nostrum voluptatibus, quibusdam tenetur doloremque placeat iusto voluptate molestias minima. Corrupti enim veritatis consectetur ab. Sunt, illo, suscipit laudantium at minima aliquam dolore debitis cumque iure molestias, facere officia tenetur asperiores illum dignissimos voluptate mollitia ipsum eveniet! Labore natus beatae consequatur porro iste officia adipisci, maiores sint optio quas voluptatibus dolorem repudiandae assumenda incidunt debitis aperiam reprehenderit, similique odio, quia in eaque libero? Et corporis ut nisi vitae fuga reiciendis dicta a minus vel repellat. Eius dolor ad consectetur velit eum cumque recusandae alias repellat officia sunt expedita iure eaque porro, at vitae quasi dolore odio, sint optio? Harum praesentium nam odio iure doloremque saepe numquam facilis aliquam totam perferendis exercitationem dolorem porro sequi aliquid mollitia ipsam commodi placeat, minus illo deserunt nesciunt assumenda omnis asperiores quam! Voluptatibus, deserunt.</p>
+            <br>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quis in atque expedita qui eaque omnis obcaecati ut dolores repudiandae aut officia doloribus? Ea iste laboriosam architecto libero aspernatur tempore, sit labore modi inventore obcaecati. Iusto, tenetur, voluptas doloremque perspiciatis at, aperiam nihil quaerat quidem quibusdam ducimus rerum quas. Voluptatem quas exercitationem sequi distinctio porro sint dolorem, nemo atque architecto tenetur rem magnam impedit, qui quae ipsam possimus minima earum omnis eligendi! Vero laborum sit totam amet molestias excepturi, recusandae, officia dignissimos ex praesentium dolorum libero soluta id reiciendis enim modi quisquam ratione aspernatur nostrum alias delectus consequatur? Eveniet vel ab aut temporibus blanditiis eius architecto doloribus excepturi mollitia laudantium, facilis est ut reprehenderit! Numquam perspiciatis quas harum, natus provident in nostrum voluptatibus, quibusdam tenetur doloremque placeat iusto voluptate molestias minima. Corrupti enim veritatis consectetur ab. Sunt, illo, suscipit laudantium at minima aliquam dolore debitis cumque iure molestias, facere officia tenetur asperiores illum dignissimos voluptate mollitia ipsum eveniet! Labore natus beatae consequatur porro iste officia adipisci, maiores sint optio quas voluptatibus dolorem repudiandae assumenda incidunt debitis aperiam reprehenderit, similique odio, quia in eaque libero? Et corporis ut nisi vitae fuga reiciendis dicta a minus vel repellat. Eius dolor ad consectetur velit eum cumque recusandae alias repellat officia sunt expedita iure eaque porro, at vitae quasi dolore odio, sint optio? Harum praesentium nam odio iure doloremque saepe numquam facilis aliquam totam perferendis exercitationem dolorem porro sequi aliquid mollitia ipsam commodi placeat, minus illo deserunt nesciunt assumenda omnis asperiores quam! Voluptatibus, deserunt.</p>
+        </div>
+        
+    </div>
+
+</body>
+</html>
