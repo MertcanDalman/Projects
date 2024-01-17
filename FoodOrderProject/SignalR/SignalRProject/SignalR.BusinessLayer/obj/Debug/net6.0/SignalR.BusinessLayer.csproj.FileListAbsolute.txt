@@ -1,0 +1,17 @@
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\bin\Debug\net6.0\SignalR.BusinessLayer.deps.json
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\bin\Debug\net6.0\SignalR.BusinessLayer.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\bin\Debug\net6.0\SignalR.BusinessLayer.pdb
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\bin\Debug\net6.0\SignalR.EntityLayer.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\bin\Debug\net6.0\SignalRDataAccessLayer.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\bin\Debug\net6.0\SignalRDataAccessLayer.pdb
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\bin\Debug\net6.0\SignalR.EntityLayer.pdb
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\obj\Debug\net6.0\SignalR.BusinessLayer.csproj.AssemblyReference.cache
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\obj\Debug\net6.0\SignalR.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\obj\Debug\net6.0\SignalR.BusinessLayer.AssemblyInfoInputs.cache
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\obj\Debug\net6.0\SignalR.BusinessLayer.AssemblyInfo.cs
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\obj\Debug\net6.0\SignalR.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\obj\Debug\net6.0\SignalR.BusinessLayer.csproj.CopyComplete
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\obj\Debug\net6.0\SignalR.BusinessLayer.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\obj\Debug\net6.0\refint\SignalR.BusinessLayer.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\obj\Debug\net6.0\SignalR.BusinessLayer.pdb
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalR.BusinessLayer\obj\Debug\net6.0\ref\SignalR.BusinessLayer.dll

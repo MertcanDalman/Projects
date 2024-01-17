@@ -1,0 +1,17 @@
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\bin\Debug\net6.0\SignalRDataAccessLayer.deps.json
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\bin\Debug\net6.0\SignalRDataAccessLayer.runtimeconfig.json
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\bin\Debug\net6.0\SignalRDataAccessLayer.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\bin\Debug\net6.0\SignalRDataAccessLayer.pdb
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\bin\Debug\net6.0\SignalR.EntityLayer.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\bin\Debug\net6.0\SignalR.EntityLayer.pdb
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\SignalRDataAccessLayer.csproj.AssemblyReference.cache
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\SignalRDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\SignalRDataAccessLayer.AssemblyInfoInputs.cache
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\SignalRDataAccessLayer.AssemblyInfo.cs
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\SignalRDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\SignalRDataAccessLayer.csproj.CopyComplete
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\SignalRDataAccessLayer.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\refint\SignalRDataAccessLayer.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\SignalRDataAccessLayer.pdb
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\SignalRDataAccessLayer.genruntimeconfig.cache
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRDataAccessLayer\obj\Debug\net6.0\ref\SignalRDataAccessLayer.dll
