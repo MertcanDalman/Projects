@@ -72,3 +72,7 @@ C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRApi\o
 C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRApi\obj\Debug\net6.0\SignalRApi.pdb
 C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRApi\obj\Debug\net6.0\SignalRApi.genruntimeconfig.cache
 C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRApi\obj\Debug\net6.0\ref\SignalRApi.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRApi\bin\Debug\net6.0\SignalR.DtoLayer.dll
+C:\Git\MD_Projects\Projects\FoodOrderProject\SignalR\SignalRProject\SignalRApi\bin\Debug\net6.0\SignalR.DtoLayer.pdb
