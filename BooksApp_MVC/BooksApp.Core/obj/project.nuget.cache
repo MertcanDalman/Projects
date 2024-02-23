@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EELjsUWpY6xxgTNiSmFPvuUPU+QLg8ivCGkrX8ZsYLA73C4q38hHQMYSA36djk2Bkw6qjsEWzqMZnXULoU24lg==",
+  "dgSpecHash": "cdnBFXy4NEvVJrENMStlKmA7XBdcARPIHGjdjs6AGPjW+plOyyp1Ay/vzs5wl9s9LayvqynDQFC3sg/md+9PGg==",
   "success": true,
-  "projectFilePath": "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.Core\\BooksApp.Core.csproj",
+  "projectFilePath": "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.Core\\BooksApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HECTOR\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\HECTOR\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

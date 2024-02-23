@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/2N3lKunxqPvfJvuobIWWI5UPr0W/u8mO+Z2BFyUfw/ynghfklZ+yTJV50JP8ldoH3+9VXCJyp287731n9glGA==",
+  "dgSpecHash": "rhWctcG/tZSVI0UdtWl26xV4zeFm7G9zUqQtAd+FOwwRNwRA8QTRFSpgFn3URp8gTW/Ga3GoSZsKeXEoHhZ1Uw==",
   "success": true,
-  "projectFilePath": "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.Data\\BooksApp.Data.csproj",
+  "projectFilePath": "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.Data\\BooksApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HECTOR\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\HECTOR\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.5\\microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",

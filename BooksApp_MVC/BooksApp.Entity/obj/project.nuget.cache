@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "84VHxz5w86PM42ZSZa37/S0pxeCaHcXn/lpBou9IbxjHOdkuI+9lyf5MkcTSX4ie3dXzYsOhLSW/x65/aZRwuQ==",
+  "dgSpecHash": "BX0gaiDFWyx1c9nD3X4/ISMoK0xdid4rCAqzjaRh4ZjmQ1YbYWwNTaxb/a7dE/9VjenjcEl3akoVGACwj/8fbQ==",
   "success": true,
-  "projectFilePath": "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.Entity\\BooksApp.Entity.csproj",
+  "projectFilePath": "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.Entity\\BooksApp.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HECTOR\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.5\\microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",
     "C:\\Users\\HECTOR\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.5\\microsoft.aspnetcore.cryptography.keyderivation.7.0.5.nupkg.sha512",

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\CaseStudy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32BBB5E0-E477-4676-AC6D-2217CF76D0A7}|CaseStudy.csproj|c:\\users\\hector\\desktop\\casestudy_walnut\\casestudy\\casestudy.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{32BBB5E0-E477-4676-AC6D-2217CF76D0A7}|CaseStudy.csproj|solutionrelative:casestudy.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAB1F97-5A70-4096-85A2-470825AA39DC}|..\\CaseStudy_Data\\CaseStudy_Data.csproj|C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\casestudy_data\\concrete\\context\\casestudycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAB1F97-5A70-4096-85A2-470825AA39DC}|..\\CaseStudy_Data\\CaseStudy_Data.csproj|C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\casestudy_data\\abstract\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAB1F97-5A70-4096-85A2-470825AA39DC}|..\\CaseStudy_Data\\CaseStudy_Data.csproj|C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\casestudy_data\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1883,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:75:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CaseStudy",
+              "DocumentMoniker": "C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\CaseStudy\\CaseStudy.csproj",
+              "RelativeDocumentMoniker": "CaseStudy.csproj",
+              "ToolTip": "C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\CaseStudy\\CaseStudy.csproj",
+              "RelativeToolTip": "CaseStudy.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-23T11:02:02.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CaseStudyContext.cs",
+              "DocumentMoniker": "C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\CaseStudy_Data\\Concrete\\Context\\CaseStudyContext.cs",
+              "RelativeDocumentMoniker": "..\\CaseStudy_Data\\Concrete\\Context\\CaseStudyContext.cs",
+              "ToolTip": "C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\CaseStudy_Data\\Concrete\\Context\\CaseStudyContext.cs",
+              "RelativeToolTip": "..\\CaseStudy_Data\\Concrete\\Context\\CaseStudyContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T10:34:47.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\CaseStudy_Data\\Abstract\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\CaseStudy_Data\\Abstract\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\CaseStudy_Data\\Abstract\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\CaseStudy_Data\\Abstract\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T10:21:12.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\CaseStudy_Data\\Abstract\\IDocumentRepository.cs",
+              "RelativeDocumentMoniker": "..\\CaseStudy_Data\\Abstract\\IDocumentRepository.cs",
+              "ToolTip": "C:\\Users\\HECTOR\\Desktop\\CaseStudy_Walnut\\CaseStudy_Data\\Abstract\\IDocumentRepository.cs",
+              "RelativeToolTip": "..\\CaseStudy_Data\\Abstract\\IDocumentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T10:20:36.813Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

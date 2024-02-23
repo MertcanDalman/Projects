@@ -1446,22 +1446,25 @@
   },
   "packageFolders": {
     "C:\\Users\\HECTOR\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.Business\\BooksApp.Business.csproj",
+      "projectUniqueName": "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.Business\\BooksApp.Business.csproj",
       "projectName": "BooksApp.Business",
-      "projectPath": "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.Business\\BooksApp.Business.csproj",
+      "projectPath": "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.Business\\BooksApp.Business.csproj",
       "packagesPath": "C:\\Users\\HECTOR\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.Business\\obj\\",
+      "outputPath": "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\HECTOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1470,6 +1473,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -1477,11 +1481,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.Core\\BooksApp.Core.csproj": {
-              "projectPath": "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.Core\\BooksApp.Core.csproj"
+            "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.Core\\BooksApp.Core.csproj": {
+              "projectPath": "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.Core\\BooksApp.Core.csproj"
             },
-            "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.Data\\BooksApp.Data.csproj": {
-              "projectPath": "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.Data\\BooksApp.Data.csproj"
+            "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.Data\\BooksApp.Data.csproj": {
+              "projectPath": "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.Data\\BooksApp.Data.csproj"
             }
           }
         }
@@ -1511,7 +1515,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

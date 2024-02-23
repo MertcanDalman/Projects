@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a9cgYAkhwBvLtUTgPuwm0J6wzCBJ8ytRCDxnsRK//PrHeuE95VSf+b3/et7KqTdyRokGBYAqELDx7n+D/GeIdg==",
+  "dgSpecHash": "0psgqjxQtbTcU5+vfgCF6KhyjCMEcvOnKNBUisKFjpWglqZfp8dMxn5A9Cdtr7gsZ1Jb285ebDlbC9xlq2NmpQ==",
   "success": true,
-  "projectFilePath": "C:\\Git\\Projects\\BooksApp_MVC\\BooksApp.MVC\\BooksApp.MVC.csproj",
+  "projectFilePath": "C:\\Git\\MD_Projects\\Projects\\BooksApp_MVC\\BooksApp.MVC\\BooksApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HECTOR\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\HECTOR\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
